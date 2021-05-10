@@ -6,46 +6,17 @@
   padding-right: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
 .ant-page-header-heading-title{
-  color: #4a4ef7;
+  color: #4a4ef7 !important;
   font-weight: bolder;
 }
 .button-header{
-  color:#4a4ef7;
   font-size: 17px;
 }
 .button-header:hover{
@@ -56,7 +27,7 @@
 }
 .header-text{
   text-align: left;
-    color: rgb(9, 17, 221);
+    /* color: rgb(9, 17, 221); */
     font-size: 37px;
     font-weight: 700;
     line-height: 50px;
@@ -72,18 +43,18 @@ box-shadow:  38px 38px 61px #afafaf,
 }
 .subheader{
   text-align: left;
-  color: #4a4ef7;
+  /* color: #4a4ef7; */
   font-size: 20px;
 }
 .create-account{
   /* align-items: left;
   align-content: left; */
   text-align: left;
-  background-color: rgb(74, 78, 247) !important;
-    border-color: rgb(74, 78, 247) !important;
+  /* background-color: rgb(74, 78, 247) !important;
+    border-color: rgb(74, 78, 247) !important; */
     border-radius: 8px;
     font-weight: 500;
-    color:white !important;
+    /* color:white !important; */
     height:38px;
     float:left;
     /* margin-left: -17rem; */
@@ -96,7 +67,7 @@ box-shadow:  38px 38px 61px #afafaf,
 .subtext{
   margin-top: 5px;
   text-align: left;
-  color:rgb(125,130,237);
+  /* color:rgb(125,130,237); */
   float:left;
 }
 .page-header-mod{
