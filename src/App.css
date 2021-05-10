@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  padding-left: 50px;
+  padding-top: 10px;
+  margin-left: 90px;
+  padding-right: 20px;
 }
 
 .App-logo {
@@ -36,3 +40,71 @@
     transform: rotate(360deg);
   }
 }
+.ant-page-header-heading-title{
+  color: #4a4ef7;
+  font-weight: bolder;
+}
+.button-header{
+  color:#4a4ef7;
+  font-size: 17px;
+}
+.button-header:hover{
+  color:#4a4ef7;
+}
+.col-content{
+  padding-top:130px;
+}
+.header-text{
+  text-align: left;
+    color: rgb(9, 17, 221);
+    font-size: 37px;
+    font-weight: 700;
+    line-height: 50px;
+}
+.img-content{
+  border-radius: 22px;
+height:70%;
+box-shadow:  38px 38px 61px #afafaf,
+             -38px -38px 61px #ffffff;
+}
+.exception{
+  padding-top: 50px;
+}
+.subheader{
+  text-align: left;
+  color: #4a4ef7;
+  font-size: 20px;
+}
+.create-account{
+  /* align-items: left;
+  align-content: left; */
+  text-align: left;
+  background-color: rgb(74, 78, 247) !important;
+    border-color: rgb(74, 78, 247) !important;
+    border-radius: 8px;
+    font-weight: 500;
+    color:white !important;
+    height:38px;
+    float:left;
+    /* margin-left: -17rem; */
+}
+.create-account:hover{
+  background-color:rgb(9, 17, 221) !important;
+  color: white;
+  border-color: rgb(9, 17, 221) !important;
+}
+.subtext{
+  margin-top: 5px;
+  text-align: left;
+  color:rgb(125,130,237);
+  float:left;
+}
+.page-header-mod{
+  padding-right: 115px;
+    margin-bottom: 30px;
+}
+/* @media only screen and (max-width: 838px) {
+  .create-account{
+    margin-left: -2rem;
+  }
+} */
