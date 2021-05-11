@@ -12,9 +12,7 @@ const Content = () =>{
        </Button>
        <sub className="subtext" style={{color:colors.subtext}}>No credit card required.</sub>
         </Col>
-        {/* <Col span={4} className='col-content'>hello</Col> */}
         <Col xl={14} lg={16} md={12} xs={20} order={2} className="exception"><img className="img-content" src="https://source.unsplash.com/collection/404339/800x600"></img></Col>
-        {/* <Col span={4} className='col-content'></Col> */}
       </Row></center>
     )
 }
