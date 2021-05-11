@@ -7,8 +7,9 @@ import Content from './sections/content';
 const App = () => {
   return (
     <div className="App">
+      <div className="visible">
      <Header/>
-  
+  </div>
        
       <Content/>
      
