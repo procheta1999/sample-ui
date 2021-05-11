@@ -10,6 +10,13 @@
 .App-link {
   color: #61dafb;
 }
+.site-page-header {
+  /* border: 1px solid rgb(235, 237, 240); */
+  margin-left: 17px;
+}
+.site-page-header .ant-page-header-heading-title{
+  color: white !important;
+}
 
 
 .ant-page-header-heading-title{
@@ -46,6 +53,9 @@ box-shadow:  38px 38px 61px #afafaf,
   /* color: #4a4ef7; */
   font-size: 20px;
 }
+.small-screen{
+  display: none;
+}
 .create-account{
   /* align-items: left;
   align-content: left; */
@@ -77,6 +87,9 @@ box-shadow:  38px 38px 61px #afafaf,
 @media only screen and (min-width: 320px) and (max-width:415px) {
   .visible{
     display: none;
+  }
+  .small-screen{
+    display: block;
   }
   .App {
     text-align: center;
