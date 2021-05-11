@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import '../App.css';
-import { Drawer, Button, PageHeader } from 'antd';
+import { Drawer, Button, PageHeader , Divider} from 'antd';
 import {MenuOutlined} from '@ant-design/icons';
 import colors from '../colors/color';
 const Burger=()=>{
@@ -25,14 +25,24 @@ const Burger=()=>{
   />
      
       <Drawer
+      height={420}
           placement='top'
           onClose={onClose}
         visible={visible}
-        bodyStyle={{ backgroundColor:colors.account }}
+        bodyStyle={{ backgroundColor:colors.drawer,color:colors.write }}
         >
-          <p>Some contents...</p>
-          <p>Some contents...</p>
-          <p>Some contents...</p>
+            <br></br>
+         <div className="burger-contents"><span>Home</span></div>
+         <Divider style={{color:colors.write}}/>
+         <div className="burger-contents"><span>How It Works</span></div>
+         <Divider style={{color:colors.write}}/>
+         <div className="burger-contents"><span>Features</span></div>
+         <Divider style={{color:colors.write}}/>
+         <div className="burger-contents"><span>Pricing</span></div>
+         <Divider style={{color:colors.write}}/>
+         <div className="burger-contents"><span>Create Account</span></div>
+         <Divider style={{color:colors.write}}/>
+         <br></br>
         </Drawer>
 </>
     )

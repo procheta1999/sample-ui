@@ -119,3 +119,13 @@ box-shadow:  38px 38px 61px #afafaf,
     margin-top: 4rem;
   }
 }
+.burger-contents{
+    background-color: rgb(99, 101, 181);
+    color: white;
+    font-size: 19px;
+    text-align: center;
+}
+.anticon svg {
+  display: inline-block;
+  color: white;
+}

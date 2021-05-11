@@ -4,5 +4,6 @@ const colors={
     account:'rgb(74, 78, 247)',
     write:'white',
     subtext:'rgb(125,130,237)',
+    drawer:'rgb(99, 101, 181)',
 }
 export default colors
